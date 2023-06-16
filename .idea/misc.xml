@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/drawable/edittext.xml" value="0.1205" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/drawable/ic_add.xml" value="0.156" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/drawable/ic_cadastro_dispositivo.xml" value="0.243" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_cadastro_cena.xml" value="0.33" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_cadastro_dispositivo.xml" value="0.22554347826086957" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_cadastro_placa.xml" value="0.25769927536231885" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_client.xml" value="0.22554347826086957" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_connect.xml" value="0.33" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_lista_cenas.xml" value="0.23777173913043478" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_lista_dispositivos.xml" value="0.22" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/activity_main.xml" value="0.1359375" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/card_cena.xml" value="0.5" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/card_dispositivo.xml" value="0.33" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/layout/toolbar.xml" value="0.22554347826086957" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/menu/menu_cenas.xml" value="0.25729166666666664" />
+        <entry key="..\:/CAIO/AppMqttTcc/app/src/main/res/menu/menu_superior.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

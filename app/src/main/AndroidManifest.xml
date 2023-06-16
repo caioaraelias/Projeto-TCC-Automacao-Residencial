@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appmqtttcc" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="App MQTT"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppMqttTcc" >
+
+        <activity
+            android:name=".Connect"
+            android:exported="false" />
+        <activity
+            android:name=".Client"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.ListaDispositivos"
+            android:label="Dispositivos"
+            android:theme="@style/NoActionBareTransitionActivities" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Telas.CadastroPlaca"
+            android:label="Cadastro de placa"
+            android:theme="@style/NoActionBareTransitionActivities" >
+        </activity>
+        <activity
+            android:name=".Telas.CadastroDispositivo"
+            android:label="Cadastro de dispositivo"
+            android:theme="@style/NoActionBareTransitionActivities" >
+        </activity>
+        <activity
+            android:name=".Telas.ListaCenas"
+            android:label="Cenas"
+            android:exported="false"
+            android:theme="@style/NoActionBareTransitionActivities" />
+        <activity
+            android:name=".Telas.CadastroCena"
+            android:label="Cadastro de cena"
+            android:exported="false"
+            android:theme="@style/NoActionBareTransitionActivities" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+    </application>
+
+</manifest>

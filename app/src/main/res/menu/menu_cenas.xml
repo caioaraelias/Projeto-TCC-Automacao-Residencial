@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title=""
+        android:id="@+id/opcao_menu_lista_dispositivos"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_lista_dispositivos"/>
+
+    <item
+        android:title=""
+        android:id="@+id/opcao_menu_lista_cenas"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_lista_cenas"/>
+
+    <item
+        android:title=""
+        android:id="@+id/opcao_adicionar_registro"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_2"/>
+</menu>

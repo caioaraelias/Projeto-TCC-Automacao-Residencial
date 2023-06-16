@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--ESSE STYLE ABAIXO É PARA RETIRAR A TOOLBAR PADRÃO DO PROJETO NA TELA QUE EU QUISER E TRANSIÇÃO ENTRE ACTIVITIES NO BOTTOM NAVIGATIONM -->
+    <style name="NoActionBareTransitionActivities" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitTransition">@android:transition/slide_top</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="corconsultapedido" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitTransition">@android:transition/slide_top</item>
+        <item name="colorPrimary">@color/corprimariaconsultapedido</item>
+    </style>
+
+    <style name="actionbar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="CustomBottomNav" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="itemTextColor">@android:color/white</item>
+        <item name="itemIconTint">@android:color/white</item>
+    </style>
+
+    <!--ESSE STYLE É PARA A TRANSIÇÃO ENTRE ACTIVITIES NO BOTTOM NAVIGATIONM -->
+    <style name="AppTheme.Transition">
+        <item name="android:windowExitTransition">@android:transition/slide_top</item>
+    </style>
+
+    <style name="Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+</resources>

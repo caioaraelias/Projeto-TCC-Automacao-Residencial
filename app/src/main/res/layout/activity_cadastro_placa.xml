@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.CadastroPlaca"
+    android:background="@color/fundocinza">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp">
+
+        <EditText
+            android:id="@+id/edit_codigo_placa"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:hint="Código da placa"
+            android:paddingLeft="8dp"
+            android:textSize="18sp"></EditText>
+
+        <Button
+            android:id="@+id/btn_salvar_placa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Salvar"
+            android:textAllCaps="false"
+            android:textColor="@color/fundocinza"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

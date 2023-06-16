@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.CadastroDispositivo"
+    android:background="@color/fundocinza">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp">
+
+        <TextView
+            android:id="@+id/txt_aviso_quantidade_maxima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUANTIDADE MÁXIMA DE DISPOSITIVOS JÁ CADASTRADOS (5 DIGITAIS E 1 ANALÓGICO)"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/red"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layout_full_screen">
+
+            <EditText
+                android:id="@+id/edit_nome_dispositivo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                android:hint="Nome do dispositivo"
+                android:paddingLeft="8dp"
+                android:textSize="18sp"
+                ></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione o tipo de dispositivo"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginBottom="16dp">
+
+                <Spinner
+                    android:id="@+id/spinner_tipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_saida_digital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione a saída do dispositivo"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/black"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginBottom="16dp">
+
+                <Spinner
+                    android:id="@+id/spinner_saida_digital"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_salvar_dispositivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Salvar"
+                android:textAllCaps="false"
+                android:textColor="@color/fundocinza"
+                ></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
